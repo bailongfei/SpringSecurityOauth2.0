@@ -51,10 +51,12 @@ public class LoginController {
         if(principal == null){
             username = "匿名";
         }
+        //如果是UserDetails用户信息对象，就转换
         if(principal instanceof org.springframework.security.core.userdetails.UserDetails){
             UserDetails userDetails = (UserDetails) principal;
             username = userDetails.getUsername();
         }else{
+            //不是就直接转换字符串
             username = principal.toString();
         }
         return username;

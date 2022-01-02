@@ -14,6 +14,7 @@ import java.util.List;
 /**
  * @author Administrator
  * @version 1.0
+ * security提供的用户认证查询接口，我们主管实现其接口，security自动执行，查询到用户信息和输入信息比较投票是否通过
  **/
 @Service
 public class SpringDataUserDetailsService implements UserDetailsService {

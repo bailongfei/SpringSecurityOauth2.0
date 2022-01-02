@@ -55,11 +55,13 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
                 .successForwardUrl("/login-success")//自定义登录成功的页面地址
         .and()
                 .sessionManagement()
-                .sessionCreationPolicy(SessionCreationPolicy.IF_REQUIRED)
+                .sessionCreationPolicy(SessionCreationPolicy.IF_REQUIRED)//IF_REQUIRED,如果需要就创建一个Session（默认）登录时
+                //.expiredUrl("/login‐view?error=EXPIRED_SESSION")
+                .invalidSessionUrl("/login‐view?error=INVALID_SESSION") //session超时之后，Security 设置跳转的路径
                 .and()
                 .logout()
-                .logoutUrl("/logout")
-                .logoutSuccessUrl("/login-view?logout");
+                .logoutUrl("/logout") //设置触发退出操作的UR
+                .logoutSuccessUrl("/login-view?logout");//退出之后跳转的URL
 
 
     }
