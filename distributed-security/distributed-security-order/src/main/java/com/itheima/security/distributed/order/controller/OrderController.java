@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class OrderController {
 
     @GetMapping(value = "/r1")
-    @PreAuthorize("hasAuthority('p1')")//拥有p1权限方可访问此url
+    @PreAuthorize("hasAuthority('p1')")//拥有p1权限方可访问此url,必须在websecuityConfig配置方法开启注解
     public String r1(){
         //获取用户身份信息
         UserDTO  userDTO = (UserDTO) SecurityContextHolder.getContext().getAuthentication().getPrincipal();

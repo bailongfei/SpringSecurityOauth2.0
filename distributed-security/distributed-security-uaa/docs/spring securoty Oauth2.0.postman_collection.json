@@ -1,0 +1,295 @@
+{
+	"info": {
+		"_postman_id": "d23be24f-5fee-468b-8ea9-cec9bf8aa4e9",
+		"name": "spring securoty Oauth2.0",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "申请令牌",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "client_id",
+							"value": "c1",
+							"description": "客户端id",
+							"type": "text"
+						},
+						{
+							"key": "client_secret",
+							"value": "secret",
+							"description": "客户端秘钥",
+							"type": "text"
+						},
+						{
+							"key": "grant_type",
+							"value": "authorization_code",
+							"description": "授权码模式",
+							"type": "text"
+						},
+						{
+							"key": "code",
+							"value": "4y6ZNP",
+							"description": "授权码",
+							"type": "text"
+						},
+						{
+							"key": "redirect_uri",
+							"value": "http://www.baidu.com",
+							"description": "申请授权码时的跳转url，一定和申请授权码时用的redirect_uri一致",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:53020/uaa/oauth/token",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "53020",
+					"path": [
+						"uaa",
+						"oauth",
+						"token"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "申请授权码地址",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:53020/uaa/oauth/authorize?client_id=c1&response_type=code&scope=all&redirect_uri=http://www.baidu.com",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "53020",
+					"path": [
+						"uaa",
+						"oauth",
+						"authorize"
+					],
+					"query": [
+						{
+							"key": "client_id",
+							"value": "c1"
+						},
+						{
+							"key": "response_type",
+							"value": "code"
+						},
+						{
+							"key": "scope",
+							"value": "all"
+						},
+						{
+							"key": "redirect_uri",
+							"value": "http://www.baidu.com"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "密码模式",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "client_id",
+							"value": "c1",
+							"type": "text"
+						},
+						{
+							"key": "client_secret",
+							"value": "secret",
+							"type": "text"
+						},
+						{
+							"key": "grant_type",
+							"value": "password",
+							"description": "密码模式",
+							"type": "text"
+						},
+						{
+							"key": "username",
+							"value": "zhangsan",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "123",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:53020/uaa/oauth/token",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "53020",
+					"path": [
+						"uaa",
+						"oauth",
+						"token"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "简化模式,简化模式用于没有服务器端的第三方单页面应用",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:53020/uaa/oauth/authorize?client_id=c1&response_type=token&scope=all&redirect_uri=http://www.baidu.com",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "53020",
+					"path": [
+						"uaa",
+						"oauth",
+						"authorize"
+					],
+					"query": [
+						{
+							"key": "client_id",
+							"value": "c1"
+						},
+						{
+							"key": "response_type",
+							"value": "token"
+						},
+						{
+							"key": "scope",
+							"value": "all"
+						},
+						{
+							"key": "redirect_uri",
+							"value": "http://www.baidu.com"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "客户端模式",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "client_id",
+							"value": "c1",
+							"type": "text"
+						},
+						{
+							"key": "client_secret",
+							"value": "secret",
+							"type": "text"
+						},
+						{
+							"key": "grant_type",
+							"value": "client_credentials",
+							"description": "客户端模式",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:53020/uaa/oauth/token",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "53020",
+					"path": [
+						"uaa",
+						"oauth",
+						"token"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "验证tonke",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "token",
+							"value": "b9385433-1b8d-4cfa-8ede-a4a0058d7883",
+							"description": "申请的令牌",
+							"type": "default"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:53020/uaa/oauth/check_token",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "53020",
+					"path": [
+						"uaa",
+						"oauth",
+						"check_token"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "请求资源验证",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsicmVzMSJdLCJ1c2VyX25hbWUiOiJ7XCJmdWxsbmFtZVwiOlwi5byg5LiJXCIsXCJpZFwiOlwiMVwiLFwibW9iaWxlXCI6XCIxNjQ4NzU0NjU3OFwiLFwicGFzc3dvcmRcIjpcIiQyYSQxMCREenNvSXJ6SVViN1JhV21MUDEuR0RPOVVnLkgzd1VCaFVsb0I1TExDU3liYkdCQm93dWlDdVwiLFwidXNlcm5hbWVcIjpcInpoYW5nc2FuXCJ9Iiwic2NvcGUiOlsiUk9MRV9BRE1JTiIsIlJPTEVfVVNFUiIsIlJPTEVfQVBJIiwiYWxsIl0sImV4cCI6MTY0MTIxNjU0NSwiYXV0aG9yaXRpZXMiOlsicDEiLCJwMyJdLCJqdGkiOiI1YTU0YzRjOC02OWE2LTQ5YjYtOTdjZC03ZTk2NDlmNTY0ZWUiLCJjbGllbnRfaWQiOiJjMSJ9.T1He7-iJ-cSToaHwhZa56bE5R1nsaXNoxgHIMkKNwEo",
+						"type": "default"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:53021/order/r1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "53021",
+					"path": [
+						"order",
+						"r1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

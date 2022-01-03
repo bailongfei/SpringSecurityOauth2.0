@@ -18,6 +18,8 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 
     //认证管理器
+    //authenticationManager：认证管理器，当你选择了资源所有者密码（password）授权类型的时候，请设置
+    //这个属性注入一个 AuthenticationManager 对象
     @Bean
     public AuthenticationManager authenticationManagerBean() throws Exception {
         return super.authenticationManagerBean();
