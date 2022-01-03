@@ -21,6 +21,12 @@ public class LoginController {
         return getUsername()+" 登录成功";
     }
 
+    //测试匿名
+    @GetMapping(value = "/t/t1",produces = {"text/plain;charset=UTF-8"})
+    public String t1(){
+        return getUsername() + " 访问资源t1";
+    }
+
     /**
      * 测试资源1
      * @return
@@ -48,13 +54,15 @@ public class LoginController {
         Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
         //用户身份
         Object principal = authentication.getPrincipal();
-        if(principal == null){
+        if(principal == null){ //测试的不会为null
             username = "匿名";
         }
+        //如果对象是UserDetails，获取用户信息
         if(principal instanceof org.springframework.security.core.userdetails.UserDetails){
             UserDetails userDetails = (UserDetails) principal;
             username = userDetails.getUsername();
         }else{
+            //直接转换字符串，匿名anonymousUser
             username = principal.toString();
         }
         return username;
