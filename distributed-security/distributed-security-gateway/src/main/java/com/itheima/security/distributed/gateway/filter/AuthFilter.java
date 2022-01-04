@@ -19,6 +19,8 @@ import java.util.Map;
 /**
  * @author Administrator
  * @version 1.0
+ * 通过Zuul过滤器的方式实现，目的是让下游微服务能够很方便的获取到当前的登录用户信息（明文token）
+ * 实现Zuul前置过滤器，完成当前登录用户信息提取，并放入转发微服务的request中
  **/
 public class AuthFilter extends ZuulFilter {
 
@@ -29,7 +31,7 @@ public class AuthFilter extends ZuulFilter {
 
     @Override
     public String filterType() {
-        return "pre";
+        return "pre"; //请求之前拦截
     }
 
     @Override
@@ -37,8 +39,10 @@ public class AuthFilter extends ZuulFilter {
         return 0;
     }
 
+    //网关资源服务配置好后，用户认证通过后，网关转发token到order等资源服务
     @Override
     public Object run() throws ZuulException {
+        //用户通过资源服务认证后
         RequestContext ctx = RequestContext.getCurrentContext();
         //从安全上下文中拿 到用户身份对象
         Authentication authentication = SecurityContextHolder.getContext().getAuthentication();

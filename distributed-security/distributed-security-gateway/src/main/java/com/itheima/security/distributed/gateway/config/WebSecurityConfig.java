@@ -7,6 +7,7 @@ import org.springframework.security.config.annotation.web.configuration.WebSecur
 /**
  * @author Administrator
  * @version 1.0
+ * 安全配置
  **/
 @Configuration
 public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
@@ -16,7 +17,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 
         http
                 .authorizeRequests()
-                .antMatchers("/**").permitAll()
+                .antMatchers("/**").permitAll()//所有请求可以访问网关
                 .and().csrf().disable();
     }
 }

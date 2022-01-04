@@ -3,21 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="755b3cb2-7df6-498f-b66a-e7cf0c2257b0" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distributed-security-uaa/docs/spring securoty Oauth2.0.postman_collection.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/distributed-security-discovery/distributed-security-discovery.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/distributed-security-gateway/distributed-security-gateway.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/distributed-security-order/distributed-security-order.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/distributed-security-order/src/main/java/com/itheima/security/distributed/order/config/ResouceServerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/distributed-security-order/src/main/java/com/itheima/security/distributed/order/config/ResouceServerConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/distributed-security-order/src/main/java/com/itheima/security/distributed/order/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/distributed-security-order/src/main/java/com/itheima/security/distributed/order/controller/OrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/distributed-security-uaa/distributed-security-uaa.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/itheima/security/distributed/uaa/config/AuthorizationServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/itheima/security/distributed/uaa/config/AuthorizationServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/itheima/security/distributed/uaa/config/TokenConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/itheima/security/distributed/uaa/config/TokenConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/itheima/security/distributed/uaa/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/itheima/security/distributed/uaa/config/WebSecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/distributed-security-uaa/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/distributed-security-uaa/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/distributed-security.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/distributed-security-gateway/src/main/java/com/itheima/security/distributed/gateway/common/EncryptUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/distributed-security-gateway/src/main/java/com/itheima/security/distributed/gateway/common/EncryptUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/distributed-security-gateway/src/main/java/com/itheima/security/distributed/gateway/config/ResouceServerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/distributed-security-gateway/src/main/java/com/itheima/security/distributed/gateway/config/ResouceServerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/distributed-security-gateway/src/main/java/com/itheima/security/distributed/gateway/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/distributed-security-gateway/src/main/java/com/itheima/security/distributed/gateway/config/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/distributed-security-gateway/src/main/java/com/itheima/security/distributed/gateway/config/ZuulConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/distributed-security-gateway/src/main/java/com/itheima/security/distributed/gateway/config/ZuulConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/distributed-security-gateway/src/main/java/com/itheima/security/distributed/gateway/filter/AuthFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/distributed-security-gateway/src/main/java/com/itheima/security/distributed/gateway/filter/AuthFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/distributed-security-order/src/main/java/com/itheima/security/distributed/order/common/EncryptUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/distributed-security-order/src/main/java/com/itheima/security/distributed/order/common/EncryptUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/distributed-security-order/src/main/java/com/itheima/security/distributed/order/filter/TokenAuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/distributed-security-order/src/main/java/com/itheima/security/distributed/order/filter/TokenAuthenticationFilter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../security-spring-boot/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../security-spring-boot/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../security-spring-boot/src/main/java/com/itheima/security/springboot/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../security-spring-boot/src/main/java/com/itheima/security/springboot/config/WebSecurityConfig.java" afterDir="false" />
     </list>
@@ -34,12 +27,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/itheima/security/distributed/uaa/config/AuthorizationServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="394">
-              <caret line="85" column="130" lean-forward="true" selection-start-line="85" selection-start-column="12" selection-end-line="85" selection-end-column="130" />
+            <state relative-caret-position="-1340">
+              <caret line="70" column="54" selection-start-line="70" selection-start-column="34" selection-end-line="70" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -48,64 +41,98 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/itheima/security/distributed/uaa/config/WebSecurityConfig.java">
+        <entry file="file://$PROJECT_DIR$/distributed-security-order/src/main/java/com/itheima/security/distributed/order/config/ResouceServerConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
+            <state relative-caret-position="598">
+              <caret line="39" column="57" lean-forward="true" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="57" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/distributed-security-order/src/main/java/com/itheima/security/distributed/order/controller/OrderController.java">
+        <entry file="file://$PROJECT_DIR$/distributed-security-gateway/src/main/java/com/itheima/security/distributed/gateway/config/ResouceServerConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="734">
+              <caret line="63" column="29" selection-start-line="63" selection-start-column="20" selection-end-line="63" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/distributed-security-gateway/src/main/java/com/itheima/security/distributed/gateway/config/TokenConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/distributed-security-gateway/src/main/java/com/itheima/security/distributed/gateway/config/WebSecurityConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="59" selection-start-line="19" selection-start-column="59" selection-end-line="19" selection-end-column="59" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/distributed-security-gateway/src/main/java/com/itheima/security/distributed/gateway/config/ZuulConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="398">
+              <caret line="26" column="33" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#659#660#0" expanded="true" />
+                <element signature="e#698#699#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/distributed-security-gateway/src/main/java/com/itheima/security/distributed/gateway/filter/AuthFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="54" column="56" lean-forward="true" selection-start-line="54" selection-start-column="56" selection-end-line="54" selection-end-column="56" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#942#943#0" expanded="true" />
+                <element signature="e#973#974#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/distributed-security-gateway/src/main/java/com/itheima/security/distributed/gateway/common/EncryptUtil.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
-              <caret line="18" column="18" lean-forward="true" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <caret line="27" column="30" lean-forward="true" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/itheima/security/distributed/uaa/config/TokenConfig.java">
+        <entry file="file://$PROJECT_DIR$/distributed-security-order/src/main/java/com/itheima/security/distributed/order/common/EncryptUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="449">
-              <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/distributed-security-order/src/main/java/com/itheima/security/distributed/order/config/TokenConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="18" column="36" lean-forward="true" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+            <state relative-caret-position="144">
+              <caret line="25" column="14" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/distributed-security-order/src/main/java/com/itheima/security/distributed/order/config/ResouceServerConfig.java">
+        <entry file="file://$PROJECT_DIR$/distributed-security-order/src/main/java/com/itheima/security/distributed/order/filter/TokenAuthenticationFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="479">
-              <caret line="41" column="39" lean-forward="true" selection-start-line="41" selection-start-column="39" selection-end-line="41" selection-end-column="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/distributed-security-order/src/main/java/com/itheima/security/distributed/order/config/WebSecurityConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="60" lean-forward="true" selection-start-line="24" selection-start-column="60" selection-end-line="24" selection-end-column="60" />
+            <state relative-caret-position="496">
+              <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -151,21 +178,21 @@
         <option value="$PROJECT_DIR$/distributed-security-gateway/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/distributed-security-gateway/src/main/java/com/itheima/security/distributed/gateway/GatewayServer.java" />
         <option value="$PROJECT_DIR$/distributed-security-gateway/src/main/java/com/itheima/security/distributed/gateway/config/TokenConfig.java" />
-        <option value="$PROJECT_DIR$/distributed-security-gateway/src/main/java/com/itheima/security/distributed/gateway/config/ResouceServerConfig.java" />
-        <option value="$PROJECT_DIR$/distributed-security-gateway/src/main/java/com/itheima/security/distributed/gateway/config/WebSecurityConfig.java" />
-        <option value="$PROJECT_DIR$/distributed-security-gateway/src/main/java/com/itheima/security/distributed/gateway/common/EncryptUtil.java" />
-        <option value="$PROJECT_DIR$/distributed-security-gateway/src/main/java/com/itheima/security/distributed/gateway/filter/AuthFilter.java" />
-        <option value="$PROJECT_DIR$/distributed-security-gateway/src/main/java/com/itheima/security/distributed/gateway/config/ZuulConfig.java" />
-        <option value="$PROJECT_DIR$/distributed-security-order/src/main/java/com/itheima/security/distributed/order/common/EncryptUtil.java" />
         <option value="$PROJECT_DIR$/distributed-security-order/src/main/java/com/itheima/security/distributed/order/model/UserDTO.java" />
         <option value="$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/itheima/security/distributed/uaa/service/SpringDataUserDetailsService.java" />
-        <option value="$PROJECT_DIR$/distributed-security-order/src/main/java/com/itheima/security/distributed/order/filter/TokenAuthenticationFilter.java" />
         <option value="$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/itheima/security/distributed/uaa/config/TokenConfig.java" />
         <option value="$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/itheima/security/distributed/uaa/config/WebSecurityConfig.java" />
         <option value="$PROJECT_DIR$/distributed-security-uaa/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/itheima/security/distributed/uaa/config/AuthorizationServer.java" />
         <option value="$PROJECT_DIR$/distributed-security-order/src/main/java/com/itheima/security/distributed/order/controller/OrderController.java" />
         <option value="$PROJECT_DIR$/distributed-security-order/src/main/java/com/itheima/security/distributed/order/config/ResouceServerConfig.java" />
+        <option value="$PROJECT_DIR$/distributed-security-gateway/src/main/java/com/itheima/security/distributed/gateway/config/ResouceServerConfig.java" />
+        <option value="$PROJECT_DIR$/distributed-security-gateway/src/main/java/com/itheima/security/distributed/gateway/config/WebSecurityConfig.java" />
+        <option value="$PROJECT_DIR$/distributed-security-gateway/src/main/java/com/itheima/security/distributed/gateway/config/ZuulConfig.java" />
+        <option value="$PROJECT_DIR$/distributed-security-gateway/src/main/java/com/itheima/security/distributed/gateway/filter/AuthFilter.java" />
+        <option value="$PROJECT_DIR$/distributed-security-gateway/src/main/java/com/itheima/security/distributed/gateway/common/EncryptUtil.java" />
+        <option value="$PROJECT_DIR$/distributed-security-order/src/main/java/com/itheima/security/distributed/order/common/EncryptUtil.java" />
+        <option value="$PROJECT_DIR$/distributed-security-order/src/main/java/com/itheima/security/distributed/order/filter/TokenAuthenticationFilter.java" />
       </list>
     </option>
   </component>
@@ -229,6 +256,233 @@
             <path>
               <item name="distributed-security" type="b2602c69:ProjectViewProjectNode" />
               <item name="distributed-security" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="distributed-security" type="b2602c69:ProjectViewProjectNode" />
+              <item name="distributed-security" type="462c0819:PsiDirectoryNode" />
+              <item name="distributed-security-discovery" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="distributed-security" type="b2602c69:ProjectViewProjectNode" />
+              <item name="distributed-security" type="462c0819:PsiDirectoryNode" />
+              <item name="distributed-security-discovery" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="distributed-security" type="b2602c69:ProjectViewProjectNode" />
+              <item name="distributed-security" type="462c0819:PsiDirectoryNode" />
+              <item name="distributed-security-discovery" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="distributed-security" type="b2602c69:ProjectViewProjectNode" />
+              <item name="distributed-security" type="462c0819:PsiDirectoryNode" />
+              <item name="distributed-security-discovery" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="distributed-security" type="b2602c69:ProjectViewProjectNode" />
+              <item name="distributed-security" type="462c0819:PsiDirectoryNode" />
+              <item name="distributed-security-discovery" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="distributed-security" type="b2602c69:ProjectViewProjectNode" />
+              <item name="distributed-security" type="462c0819:PsiDirectoryNode" />
+              <item name="distributed-security-discovery" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="itheima" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="distributed-security" type="b2602c69:ProjectViewProjectNode" />
+              <item name="distributed-security" type="462c0819:PsiDirectoryNode" />
+              <item name="distributed-security-discovery" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="itheima" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="distributed-security" type="b2602c69:ProjectViewProjectNode" />
+              <item name="distributed-security" type="462c0819:PsiDirectoryNode" />
+              <item name="distributed-security-discovery" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="itheima" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+              <item name="distributed" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="distributed-security" type="b2602c69:ProjectViewProjectNode" />
+              <item name="distributed-security" type="462c0819:PsiDirectoryNode" />
+              <item name="distributed-security-discovery" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="itheima" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+              <item name="distributed" type="462c0819:PsiDirectoryNode" />
+              <item name="discovery" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="distributed-security" type="b2602c69:ProjectViewProjectNode" />
+              <item name="distributed-security" type="462c0819:PsiDirectoryNode" />
+              <item name="distributed-security-discovery" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="distributed-security" type="b2602c69:ProjectViewProjectNode" />
+              <item name="distributed-security" type="462c0819:PsiDirectoryNode" />
+              <item name="distributed-security-discovery" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="distributed-security" type="b2602c69:ProjectViewProjectNode" />
+              <item name="distributed-security" type="462c0819:PsiDirectoryNode" />
+              <item name="distributed-security-gateway" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="distributed-security" type="b2602c69:ProjectViewProjectNode" />
+              <item name="distributed-security" type="462c0819:PsiDirectoryNode" />
+              <item name="distributed-security-gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="distributed-security" type="b2602c69:ProjectViewProjectNode" />
+              <item name="distributed-security" type="462c0819:PsiDirectoryNode" />
+              <item name="distributed-security-gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="distributed-security" type="b2602c69:ProjectViewProjectNode" />
+              <item name="distributed-security" type="462c0819:PsiDirectoryNode" />
+              <item name="distributed-security-gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="distributed-security" type="b2602c69:ProjectViewProjectNode" />
+              <item name="distributed-security" type="462c0819:PsiDirectoryNode" />
+              <item name="distributed-security-gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="distributed-security" type="b2602c69:ProjectViewProjectNode" />
+              <item name="distributed-security" type="462c0819:PsiDirectoryNode" />
+              <item name="distributed-security-gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="itheima" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="distributed-security" type="b2602c69:ProjectViewProjectNode" />
+              <item name="distributed-security" type="462c0819:PsiDirectoryNode" />
+              <item name="distributed-security-gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="itheima" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="distributed-security" type="b2602c69:ProjectViewProjectNode" />
+              <item name="distributed-security" type="462c0819:PsiDirectoryNode" />
+              <item name="distributed-security-gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="itheima" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+              <item name="distributed" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="distributed-security" type="b2602c69:ProjectViewProjectNode" />
+              <item name="distributed-security" type="462c0819:PsiDirectoryNode" />
+              <item name="distributed-security-gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="itheima" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+              <item name="distributed" type="462c0819:PsiDirectoryNode" />
+              <item name="gateway" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="distributed-security" type="b2602c69:ProjectViewProjectNode" />
+              <item name="distributed-security" type="462c0819:PsiDirectoryNode" />
+              <item name="distributed-security-gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="itheima" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+              <item name="distributed" type="462c0819:PsiDirectoryNode" />
+              <item name="gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="distributed-security" type="b2602c69:ProjectViewProjectNode" />
+              <item name="distributed-security" type="462c0819:PsiDirectoryNode" />
+              <item name="distributed-security-gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="itheima" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+              <item name="distributed" type="462c0819:PsiDirectoryNode" />
+              <item name="gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="distributed-security" type="b2602c69:ProjectViewProjectNode" />
+              <item name="distributed-security" type="462c0819:PsiDirectoryNode" />
+              <item name="distributed-security-gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="itheima" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+              <item name="distributed" type="462c0819:PsiDirectoryNode" />
+              <item name="gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="filter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="distributed-security" type="b2602c69:ProjectViewProjectNode" />
+              <item name="distributed-security" type="462c0819:PsiDirectoryNode" />
+              <item name="distributed-security-gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="distributed-security" type="b2602c69:ProjectViewProjectNode" />
@@ -398,12 +652,6 @@
               <item name="distributed-security" type="b2602c69:ProjectViewProjectNode" />
               <item name="distributed-security" type="462c0819:PsiDirectoryNode" />
               <item name="distributed-security-uaa" type="462c0819:PsiDirectoryNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="distributed-security" type="b2602c69:ProjectViewProjectNode" />
-              <item name="distributed-security" type="462c0819:PsiDirectoryNode" />
-              <item name="distributed-security-uaa" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -540,13 +788,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="distributed-security" type="b2602c69:ProjectViewProjectNode" />
-              <item name="distributed-security" type="462c0819:PsiDirectoryNode" />
-              <item name="distributed-security-uaa" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -562,7 +803,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1641210299830" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1641311289049" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -717,18 +958,27 @@
       <workItem from="1569987087820" duration="17281000" />
       <workItem from="1641187655289" duration="257000" />
       <workItem from="1641192132341" duration="5229000" />
-      <workItem from="1641197610016" duration="10313000" />
+      <workItem from="1641197610016" duration="10513000" />
+      <workItem from="1641301823690" duration="7005000" />
     </task>
+    <task id="LOCAL-00001" summary="uaa-jwt">
+      <created>1641210353318</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1641210353318</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33080000" />
+    <option name="totallyTimeSpent" value="40285000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31367293" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28150135" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -737,16 +987,17 @@
       <window_info id="Capture Tool" order="6" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info id="JRebel" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="JRebel Executor" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.39184397" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39184397" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32960895" />
       <window_info anchor="bottom" id="Messages" order="10" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
@@ -772,20 +1023,24 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="uaa-jwt" />
+    <option name="LAST_COMMIT_MESSAGE" value="uaa-jwt" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/distributed-security-gateway/src/main/java/com/itheima/security/distributed/gateway/filter/AuthFilter.java</url>
-          <line>66</line>
+          <line>70</line>
           <properties />
-          <option name="timeStamp" value="1" />
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/distributed-security-order/src/main/java/com/itheima/security/distributed/order/filter/TokenAuthenticationFilter.java</url>
-          <line>49</line>
+          <line>50</line>
           <properties />
-          <option name="timeStamp" value="2" />
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -834,78 +1089,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/distributed-security-discovery/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/distributed-security-order/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="24" column="45" selection-start-line="24" selection-start-column="45" selection-end-line="26" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/distributed-security-discovery/src/main/java/com/itheima/security/distributed/discovery/DiscoveryServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="14" column="58" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#416#417#0" expanded="true" />
-            <element signature="e#454#455#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/distributed-security-gateway/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="71" column="43" selection-start-line="71" selection-start-column="40" selection-end-line="71" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/distributed-security-gateway/src/main/java/com/itheima/security/distributed/gateway/config/WebSecurityConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="13" column="13" lean-forward="true" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/distributed-security-gateway/src/main/java/com/itheima/security/distributed/gateway/common/EncryptUtil.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/distributed-security-gateway/src/main/java/com/itheima/security/distributed/gateway/config/ZuulConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="30" column="37" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#195#196#0" expanded="true" />
-            <element signature="e#234#235#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/distributed-security-order/src/main/java/com/itheima/security/distributed/order/common/EncryptUtil.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.1.4.RELEASE/spring-security-core-5.1.4.RELEASE.jar!/org/springframework/security/authentication/UsernamePasswordAuthenticationToken.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="22" column="130" selection-start-line="22" selection-start-column="130" selection-end-line="22" selection-end-column="130" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/distributed-security-gateway/src/main/java/com/itheima/security/distributed/gateway/config/TokenConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -945,44 +1132,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/distributed-security-order/src/main/java/com/itheima/security/distributed/order/filter/TokenAuthenticationFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="40" column="97" selection-start-line="40" selection-start-column="97" selection-end-line="40" selection-end-column="97" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/distributed-security-gateway/src/main/java/com/itheima/security/distributed/gateway/config/ResouceServerConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="901">
-          <caret line="59" column="38" selection-start-line="59" selection-start-column="38" selection-end-line="59" selection-end-column="85" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/distributed-security-gateway/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="17" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/distributed-security-order/src/main/java/com/itheima/security/distributed/order/model/UserDTO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
           <caret line="29" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/distributed-security-gateway/src/main/java/com/itheima/security/distributed/gateway/filter/AuthFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="66" selection-start-line="66" selection-end-line="66" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1007,13 +1160,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/distributed-security-order/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="47" column="20" lean-forward="true" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/itheima/security/distributed/uaa/service/SpringDataUserDetailsService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
@@ -1025,45 +1171,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/distributed-security-uaa/docs/spring securoty Oauth2.0.postman_collection.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-510" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/itheima/security/distributed/uaa/config/TokenConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/itheima/security/distributed/uaa/config/WebSecurityConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/itheima/security/distributed/uaa/config/AuthorizationServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="85" column="130" lean-forward="true" selection-start-line="85" selection-start-column="12" selection-end-line="85" selection-end-column="130" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/distributed-security-order/src/main/java/com/itheima/security/distributed/order/config/TokenConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="18" column="36" lean-forward="true" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -1087,10 +1194,171 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/distributed-security-uaa/docs/spring securoty Oauth2.0.postman_collection.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4451" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/distributed-security-order/src/main/java/com/itheima/security/distributed/order/config/TokenConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="18" column="36" lean-forward="true" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/distributed-security-uaa/docs/user_db_security.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/itheima/security/distributed/uaa/config/TokenConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/itheima/security/distributed/uaa/config/WebSecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/distributed-security-discovery/src/main/java/com/itheima/security/distributed/discovery/DiscoveryServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#416#417#0" expanded="true" />
+            <element signature="e#481#482#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/distributed-security-order/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="47" column="20" lean-forward="true" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/distributed-security-order/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="27" column="67" lean-forward="true" selection-start-line="27" selection-start-column="67" selection-end-line="27" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/distributed-security-discovery/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="10" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/distributed-security-gateway/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="41" lean-forward="true" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/itheima/security/distributed/uaa/config/AuthorizationServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1340">
+          <caret line="70" column="54" selection-start-line="70" selection-start-column="34" selection-end-line="70" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/distributed-security-gateway/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="79" column="20" lean-forward="true" selection-start-line="79" selection-start-column="20" selection-end-line="79" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/distributed-security-order/src/main/java/com/itheima/security/distributed/order/config/ResouceServerConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="479">
-          <caret line="41" column="39" lean-forward="true" selection-start-line="41" selection-start-column="39" selection-end-line="41" selection-end-column="39" />
+        <state relative-caret-position="598">
+          <caret line="39" column="57" lean-forward="true" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/distributed-security-gateway/src/main/java/com/itheima/security/distributed/gateway/config/ZuulConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="26" column="33" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#659#660#0" expanded="true" />
+            <element signature="e#698#699#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/distributed-security-gateway/src/main/java/com/itheima/security/distributed/gateway/config/TokenConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/distributed-security-gateway/src/main/java/com/itheima/security/distributed/gateway/config/WebSecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="59" selection-start-line="19" selection-start-column="59" selection-end-line="19" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/distributed-security-gateway/src/main/java/com/itheima/security/distributed/gateway/config/ResouceServerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="734">
+          <caret line="63" column="29" selection-start-line="63" selection-start-column="20" selection-end-line="63" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/distributed-security-gateway/src/main/java/com/itheima/security/distributed/gateway/common/EncryptUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="27" column="30" lean-forward="true" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/distributed-security-order/src/main/java/com/itheima/security/distributed/order/common/EncryptUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="25" column="14" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/distributed-security-gateway/src/main/java/com/itheima/security/distributed/gateway/filter/AuthFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="54" column="56" lean-forward="true" selection-start-line="54" selection-start-column="56" selection-end-line="54" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#942#943#0" expanded="true" />
+            <element signature="e#973#974#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/distributed-security-order/src/main/java/com/itheima/security/distributed/order/filter/TokenAuthenticationFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

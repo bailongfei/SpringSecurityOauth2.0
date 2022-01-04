@@ -12,6 +12,7 @@ import org.springframework.web.filter.CorsFilter;
 /**
  * @author Administrator
  * @version 1.0
+ * 将filter纳入spring 容器
  **/
 @Configuration
 public class ZuulConfig {
@@ -21,6 +22,7 @@ public class ZuulConfig {
         return new AuthFilter();
     }
 
+    //zull网关配置
     @Bean
     public FilterRegistrationBean corsFilter() {
         final UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();

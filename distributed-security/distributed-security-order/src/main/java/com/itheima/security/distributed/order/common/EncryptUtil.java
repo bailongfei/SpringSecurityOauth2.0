@@ -23,6 +23,7 @@ public class EncryptUtil {
         return bytes;
     }
 
+    //转译base64
     public static String encodeUTF8StringBase64(String str){
         String encoded = null;
         try {
@@ -34,6 +35,7 @@ public class EncryptUtil {
 
     }
 
+    //解析base64
     public static String  decodeUTF8StringBase64(String str){
         String decoded = null;
         byte[] bytes = Base64.getDecoder().decode(str);

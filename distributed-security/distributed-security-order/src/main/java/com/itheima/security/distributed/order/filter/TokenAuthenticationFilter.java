@@ -21,6 +21,7 @@ import java.io.IOException;
 /**
  * @author Administrator
  * @version 1.0
+ * 定义filter拦截token，并形成Spring Security的Authentication对象
  **/
 @Component
 public class TokenAuthenticationFilter extends OncePerRequestFilter {
